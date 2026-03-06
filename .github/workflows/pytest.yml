@@ -27,4 +27,4 @@ jobs:
 
     - name: Run pytest and save report
       run: |
-        pytest -v --junitxml=reports/results.xml
+        pytest CICD_test.py --html=report.html --self-contained-html
